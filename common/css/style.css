@@ -1,0 +1,227 @@
+/* CSS Document */
+
+/* reset for html5 */
+@import url(reset.css);
+
+/* style */
+body, html{
+	background-color:#000;
+	font-size:16px;
+	width:100%;
+	height:100%;
+	zoom:1;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+form
+{
+	display:inline;
+}
+
+a
+{
+	color:#639;
+}
+
+a:hover
+{
+	color:#9C50E7;
+}
+
+
+
+/* header */
+header
+{
+	background-color:#000;
+	color:#FFF;
+	font-size:120%;
+	padding:10px;
+}
+header h1 a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+header h1 a:hover
+{
+	color:#FCF;
+}
+
+
+/* footer */
+footer
+{
+	background-color:#000;
+	color:#CCC;
+	font-size:90%;
+	background: -moz-linear-gradient(top, #990, #066);
+	padding:10px;
+}
+footer a
+{
+	color:#CCC;
+}
+footer a:hover
+{
+	color:#FFF;
+}
+
+footer div
+{
+	display:block;
+	width:250px;
+	
+	padding:15px;
+	float:left;
+	margin-left:15px;
+	
+	border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+	
+}
+
+footer div ul
+{
+	list-style:none;
+	padding:5px;
+}
+footer div ul li
+{
+	border-bottom:#331 1px solid;
+	padding: 2px 15px;
+}
+footer div ul a
+{
+	text-decoration:none;
+}
+footer .copyright
+{
+	clear:both;
+	text-align:right;
+	font-size:70%;
+}
+footer .copyright a
+{
+	text-decoration:none;
+}
+
+/* main */
+#main
+{
+	background-color:#FFF;
+	padding-bottom:30px;
+	padding:15px;	
+}
+
+#main .logo
+{
+	text-align:center;
+	padding:10px;
+}
+
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5
+{
+	clear:both;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#main h1
+{
+	font-size:180%;
+}
+#main h2
+{
+	font-size:150%;
+}
+#main h3
+{
+	font-size:130%;
+}
+#main h4
+{
+	font-size:120%;
+}
+#main h5
+{
+	font-size:100%;
+}
+#main h2.top_title
+{
+	text-align:center;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+#main p
+{
+	padding-bottom:5px;
+}
+#main ul
+{
+	list-style:disc;
+	list-style-position:inside;
+}
+
+#main ul.document_link
+{
+	display:inline;
+	
+}
+#main nav.document
+{
+	padding:15px;
+	font-size:200%;
+	text-align:center;	
+}
+
+#main .alert
+{
+	color:#C00;
+}
+#main span.alert
+{
+	background-color:#C00;
+	color:#FFF;
+	padding:3px;
+	border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+}
+#main .error
+{
+	color:#C00;
+}
+
+#main .document a
+{
+	text-decoration:none;
+	padding:10px;
+	color:#F469FF;
+	background-color:#000;
+	border-radius: 10px;		/* CSS3草案 */
+	-webkit-border-radius: 10px;/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+	
+	background: #383838; /* Old browsers */
+background: -moz-linear-gradient(top, #383838 1%, #494949 10%, #1c1c1c 52%, #111111 100%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#383838), color-stop(10%,#494949), color-stop(52%,#1c1c1c), color-stop(100%,#111111), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #383838 1%,#494949 10%,#1c1c1c 52%,#111111 100%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #383838 1%,#494949 10%,#1c1c1c 52%,#111111 100%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #383838 1%,#494949 10%,#1c1c1c 52%,#111111 100%,#131313 100%); /* IE10+ */
+background: linear-gradient(to bottom, #383838 1%,#494949 10%,#1c1c1c 52%,#111111 100%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+	
+}
+#main .document a:hover
+{
+	color:#FFF;
+}
+
+
+
