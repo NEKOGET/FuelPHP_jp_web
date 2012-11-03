@@ -262,5 +262,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', end
 	color:#FFF;
 }
 
+#main table
+{
+	width:100%;
+	border:1px solid #CCC;
+}
+
+#main table tr th, 
+#main table tr td
+{
+	padding:3px;
+	border:1px solid #CCC;
+
+}
+
+
 
 
